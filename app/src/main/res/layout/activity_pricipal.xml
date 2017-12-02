@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,12 +8,20 @@
     android:layout_height="match_parent"
     tools:context="com.i054114.citips.PricipalActivity">
 
+    <ImageView
+        android:id="@+id/img_bn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bienvenido"
+        android:layout_margin="7dp"/>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:padding="5dp"
         android:layout_margin="5dp"
         android:onClick="Agenda"
+        android:layout_centerInParent="true"
         android:background="@drawable/background_border">
         <ImageView
             android:id="@+id/id_img_item_cardview"
@@ -67,65 +75,8 @@
         </LinearLayout>
     </RelativeLayout>
 
-    <!--...................................-->
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:padding="5dp"
-        android:layout_margin="5dp"
-        android:background="@drawable/background_border">
-        <ImageView
-            android:id="@+id/id_img_item_cardview1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/tecnico_de_laboratorio"
-            android:scaleType="centerCrop"/>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_alignParentBottom="true"
-            android:padding="10dp"
-            android:background="#53292929">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center"
-                android:layout_gravity="center">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="TITULO:"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:textColor="@android:color/white"/>
-                <TextView
-                    android:id="@+id/id_tv_item_title"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="LABORATORIO CLINICO"
-                    android:textSize="15sp"
-                    android:textStyle="italic"
-                    android:textColor="@android:color/white"
-                    android:layout_marginLeft="10dp"/>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="10dp">
-
-            </LinearLayout>
-        </LinearLayout>
-    </RelativeLayout>
 
 
 
-</LinearLayout>
+
+</RelativeLayout>
