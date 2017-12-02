@@ -12,7 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:padding="5dp"
-        android:layout_margin="5dp">
+        android:layout_margin="5dp"
+        android:onClick="Agenda"
+        android:background="@drawable/background_border">
         <ImageView
             android:id="@+id/id_img_item_cardview"
             android:layout_width="match_parent"
@@ -70,8 +72,8 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:padding="5dp"
-        android:layout_margin="5dp">
-
+        android:layout_margin="5dp"
+        android:background="@drawable/background_border">
         <ImageView
             android:id="@+id/id_img_item_cardview1"
             android:layout_width="match_parent"

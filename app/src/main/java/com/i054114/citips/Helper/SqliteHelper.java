@@ -20,6 +20,7 @@ public class SqliteHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL(Constans.CREATE_TABLE_USERS);
+        db.execSQL(Constans.CREATE_TABLE_CITAS);
 
     }
 
@@ -27,6 +28,7 @@ public class SqliteHelper extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int i, int i1) {
 
         db.execSQL("DROP TABLE IF EXISTS "+Constans.TABLE_NAME_USERS);
+        db.execSQL("DROP TABLE IF EXISTS "+Constans.TABLE_NAME_CITAS);
         onCreate(db);
 
     }

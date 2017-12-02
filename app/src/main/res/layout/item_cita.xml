@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_border"
+    android:layout_margin="10dp"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NOMBRE:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:id="@+id/id_tv_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carlos Gomez"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CEDULA:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:id="@+id/id_tv_item_cedula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1085656862"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TELEFONO:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:id="@+id/id_tv_item_telefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7202020"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doctor(a):"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:id="@+id/id_tv_item_doctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr. Restrepo"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FECHA:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/id_tv_item_fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="27/11/2017"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HORA:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/id_tv_item_hora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2:00 pm"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
